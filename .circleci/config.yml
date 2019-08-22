@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: debian:stretch
+
+    steps:
+      - checkout
+
+      - run:
+          name: Greetingsss
+          command: echo Hello, world. New Commitss
+
+      - run:
+          name: Print the Current Times
+          command: datess
