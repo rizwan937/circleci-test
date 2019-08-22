@@ -13,4 +13,4 @@ jobs:
 
       - run:
           name: Print the Current Times
-          command: datess
+          command: dates
